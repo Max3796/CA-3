@@ -629,12 +629,12 @@ hr{
         padding: 1.5rem;
         z-index: 5;
         background: rgba(0, 0, 0, 0.4);
-        backdrop-filter: blur(2px);
+        /* backdrop-filter: blur(2px); */
         display: none;
         justify-content: center;
         align-items: center;
     
-        margin-bottom: 25px;
+        /* margin-bottom: 25px; */
     
     }
     .cross>img{
