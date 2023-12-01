@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<body>
+    <div id="body">
+        <nav id="head">
+            <div><img src="./Assets/logo1.png" alt=""></div>
+            <div id="nav-text">
+                <a href="#search-meal">
+                    <h3>Search a Meal</h3>
+                </a>
+                <a href="#discover-meal">
+                    <h3>Discover a New Meal</h3>
+                </a>
+                <a href="">
+                    <h3>About</h3>
+                </a>
+            </div>
+        </nav>
+        <div class="main">
+            <div id="left">
+                <div>
+                    <h1>Your Ultimate</h1>
+                </div>
+                <div class="grouped-text">
+                    <div id="white-text">
+                        <h2>Recipe</h2>
+                    </div>
+                    <div id="black-text">
+                        <h2>Destination!</h2>
+                    </div>
+                </div>
+                <h4 id="main-text">
+                    Whether you're seeking quick and easy meals or gourmet culinary adventures, our recipe treasure
+                    trove will inspire you to embark on a flavorful voyage like no other. Welcome to the ultimate recipe
+                    destination!
+                </h4>
+                <div class="btns">
+                    <button id="search">Search</button>
+                    <button id="discover">Discover</button>
+
+                </div>
+            </div>
+            <div id="right">
+                <img src="./Assets/Screenshot__5_-removebg.png" alt="">
+            </div>
+        </div>
+        <div class="hr" id="search-meal">
+            <hr>
+        </div>
+
+        <div class="search">
+            <h1>Search your Meal</h1>
+            <input id="search-input" type="text" placeholder="Tell us, What you want to eat?">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="hr" id="discover-meal">
+            <hr>
+        </div>
+        <div  class="discover">
+            <h1 >Here's a New Meal For you</h1>
+            <div class="discover-content">
+                <div class="discover-text">
+                    <h1>Say goodbye</h1>
+                    <h2>to ‘What to cook?’ and try new meals every time.</h2>
+                    <img src="./Assets/download.jfif" alt="">
+                    <div class="getMore">
+                        <button id="getmore">Nahhh...Not my type</button>
+                    </div>
+                </div>
+                <div class="random-meal">
+                    <img src="" alt="" id="random-img">
+                    <h3 id="random-dish-name"></h3>
+                    <div class="category">
+                        <img id="categoryImg" src="" alt="">
+                        <p id="category"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+        </div>
+        <div class="results">
+            <h1>Searched Meals</h1>
+        </div>
+        <div class="meals">
+            <h1 id="searched-for">You didn't searched anything..</h1><span id="searched-item"></span>
+        </div>
+        <div id="searched-results">
+          
+        </div>
+        <div id="modal">
+            <div id="ing">
+                <div class="cross">
+                    <img id="cross" src="./Assets/Cross.png" alt="">
+                </div>
+                <div id="ing-head">
+                    <h1>Ingredients</h1>
+                </div>
+                <div id="list">
+                    <li id="order">
+                    </li>
+                </div>
+                <div id="ing-bott">
+                    <h1>Instruction</h1>
+                </div>
+                <div id="ins">
+                    <p id="para"></p>
+                </div>
+            </div>
+        </div>
+        <footer id="foot">
+
+        </footer>
+
+    </div>
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
