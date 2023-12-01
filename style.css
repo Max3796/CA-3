@@ -385,7 +385,7 @@ hr{
     margin-top: 15px;
     display: none;
 }
-@media (max-width: 426px) {
+@media only screen and (max-width: 426px) {
     #body{
         background-color: #C0A1EF;
         width: 87.3vw;
