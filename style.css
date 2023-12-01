@@ -621,18 +621,20 @@ hr{
      #modal{
    
         position: fixed;
-        width: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 75%;
+        top: 0;
+        left: 15%;
       
         
         padding: 1.5rem;
-        z-index: 999;
+        z-index: 5;
         background: rgba(0, 0, 0, 0.4);
         backdrop-filter: blur(2px);
         display: none;
         justify-content: center;
+        align-items: center;
+        margin-top: 65px;
+        margin-bottom: 25px;
     
     }
     .cross>img{
@@ -668,7 +670,7 @@ hr{
         font-weight: bolder;
         text-shadow: 1px 1px 2px rgb(255, 255, 255);
         width: 255px;
-        
+        margin-bottom: 20px;
         overflow-y: scroll;
     }
   }
